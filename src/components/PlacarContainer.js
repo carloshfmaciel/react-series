@@ -55,3 +55,15 @@ export default class PlacarContainer extends React.Component{
     }
 
 }
+
+PlacarContainer.propTypes = {
+    // DEFININDO TIPO
+    clima: React.PropTypes.string,
+    // DEFININDO OBRIGATORIO
+    //tempo: React.PropTypes.number.isRequired,
+};
+
+PlacarContainer.defaultProps = {
+    // VALOR DEFAULT
+    clima: 'Ensolarado',
+};
